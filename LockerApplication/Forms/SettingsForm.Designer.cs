@@ -1,4 +1,4 @@
-﻿namespace LockerApplication
+﻿namespace Locker
 {
     partial class SettingsForm
     {

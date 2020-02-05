@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Locker;
 
-namespace LockerApplication
+namespace Locker
 {
     public sealed class CommandLine
     {

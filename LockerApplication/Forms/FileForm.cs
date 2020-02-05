@@ -4,7 +4,7 @@ using System.Diagnostics;
 using System.Windows.Forms;
 using Locker;
 
-namespace LockerApplication
+namespace Locker
 {
     public partial class FileForm : Form
     {

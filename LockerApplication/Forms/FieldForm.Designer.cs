@@ -1,4 +1,4 @@
-﻿namespace LockerApplication
+﻿namespace Locker
 {
     partial class FieldForm
     {
@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FieldForm));
             this.keyTextbox = new System.Windows.Forms.TextBox();
             this.keyLabel = new System.Windows.Forms.Label();
             this.valueLabel = new System.Windows.Forms.Label();
@@ -91,6 +92,7 @@
             this.Controls.Add(this.keyTextbox);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

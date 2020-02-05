@@ -3,7 +3,7 @@ using System;
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace LockerApplication
+namespace Locker
 {
     public partial class SaveForm : Form
     {

@@ -7,8 +7,8 @@
     <ProjectGuid>{4FF6B632-F10E-4D24-A037-E98B57A564A6}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>LockerApplication</RootNamespace>
-    <AssemblyName>LockerApplication</AssemblyName>
+    <RootNamespace>Locker</RootNamespace>
+    <AssemblyName>locker</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>LockerApplication.Program</StartupObject>
+    <StartupObject>Locker.Program</StartupObject>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>icon_bg.ico</ApplicationIcon>

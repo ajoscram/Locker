@@ -2,7 +2,7 @@
 using System;
 using System.Windows.Forms;
 
-namespace LockerApplication
+namespace Locker
 {
     static class Program
     {
