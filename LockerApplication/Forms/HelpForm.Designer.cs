@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HelpForm));
             this.tabControl = new System.Windows.Forms.TabControl();
             this.generalTab = new System.Windows.Forms.TabPage();
             this.generalTextbox = new System.Windows.Forms.RichTextBox();
@@ -69,7 +70,7 @@
             this.generalTab.Controls.Add(this.generalTextbox);
             this.generalTab.Location = new System.Drawing.Point(4, 23);
             this.generalTab.Name = "generalTab";
-            this.generalTab.Size = new System.Drawing.Size(423, 532);
+            this.generalTab.Size = new System.Drawing.Size(429, 540);
             this.generalTab.TabIndex = 0;
             this.generalTab.Text = "General";
             this.generalTab.UseVisualStyleBackColor = true;
@@ -82,7 +83,7 @@
             this.generalTextbox.Location = new System.Drawing.Point(0, 0);
             this.generalTextbox.Name = "generalTextbox";
             this.generalTextbox.ReadOnly = true;
-            this.generalTextbox.Size = new System.Drawing.Size(423, 532);
+            this.generalTextbox.Size = new System.Drawing.Size(429, 540);
             this.generalTextbox.TabIndex = 0;
             this.generalTextbox.Text = "";
             // 
@@ -91,7 +92,7 @@
             this.filesTab.Controls.Add(this.filesTextbox);
             this.filesTab.Location = new System.Drawing.Point(4, 23);
             this.filesTab.Name = "filesTab";
-            this.filesTab.Size = new System.Drawing.Size(423, 532);
+            this.filesTab.Size = new System.Drawing.Size(429, 540);
             this.filesTab.TabIndex = 1;
             this.filesTab.Text = "Files";
             this.filesTab.UseVisualStyleBackColor = true;
@@ -104,7 +105,7 @@
             this.filesTextbox.Location = new System.Drawing.Point(0, 0);
             this.filesTextbox.Name = "filesTextbox";
             this.filesTextbox.ReadOnly = true;
-            this.filesTextbox.Size = new System.Drawing.Size(423, 532);
+            this.filesTextbox.Size = new System.Drawing.Size(429, 540);
             this.filesTextbox.TabIndex = 1;
             this.filesTextbox.Text = "";
             // 
@@ -113,7 +114,7 @@
             this.encryptersTab.Controls.Add(this.encryptersTextbox);
             this.encryptersTab.Location = new System.Drawing.Point(4, 23);
             this.encryptersTab.Name = "encryptersTab";
-            this.encryptersTab.Size = new System.Drawing.Size(423, 532);
+            this.encryptersTab.Size = new System.Drawing.Size(429, 540);
             this.encryptersTab.TabIndex = 4;
             this.encryptersTab.Text = "Encrypters";
             this.encryptersTab.UseVisualStyleBackColor = true;
@@ -126,7 +127,7 @@
             this.encryptersTextbox.Location = new System.Drawing.Point(0, 0);
             this.encryptersTextbox.Name = "encryptersTextbox";
             this.encryptersTextbox.ReadOnly = true;
-            this.encryptersTextbox.Size = new System.Drawing.Size(423, 532);
+            this.encryptersTextbox.Size = new System.Drawing.Size(429, 540);
             this.encryptersTextbox.TabIndex = 1;
             this.encryptersTextbox.Text = "";
             // 
@@ -135,7 +136,7 @@
             this.functionalityTab.Controls.Add(this.functionalityTextbox);
             this.functionalityTab.Location = new System.Drawing.Point(4, 23);
             this.functionalityTab.Name = "functionalityTab";
-            this.functionalityTab.Size = new System.Drawing.Size(423, 532);
+            this.functionalityTab.Size = new System.Drawing.Size(429, 540);
             this.functionalityTab.TabIndex = 2;
             this.functionalityTab.Text = "Functionality";
             this.functionalityTab.UseVisualStyleBackColor = true;
@@ -148,7 +149,7 @@
             this.functionalityTextbox.Location = new System.Drawing.Point(0, 0);
             this.functionalityTextbox.Name = "functionalityTextbox";
             this.functionalityTextbox.ReadOnly = true;
-            this.functionalityTextbox.Size = new System.Drawing.Size(423, 532);
+            this.functionalityTextbox.Size = new System.Drawing.Size(429, 540);
             this.functionalityTextbox.TabIndex = 1;
             this.functionalityTextbox.Text = "";
             // 
@@ -181,6 +182,7 @@
             this.ClientSize = new System.Drawing.Size(437, 567);
             this.Controls.Add(this.tabControl);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.Name = "HelpForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterParent;

@@ -825,4 +825,7 @@ Thanks for dowloading Locker!</value>
   <data name="UI_SettingsForm_TIME_EQUALS_ZERO" xml:space="preserve">
     <value>Debe poner por lo menos un segundo de tiempo para las copias en el portapapeles.</value>
   </data>
+  <data name="UI_AboutForm_iconLinkLabel" xml:space="preserve">
+    <value>Ícono por Chanut de Flaticon.com</value>
+  </data>
 </root>

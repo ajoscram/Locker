@@ -28,12 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(AboutForm));
             this.developedByLabel = new System.Windows.Forms.Label();
             this.nameLabel = new System.Windows.Forms.Label();
             this.versionLabel = new System.Windows.Forms.Label();
             this.versionNumberLabel = new System.Windows.Forms.Label();
             this.thanksLabel = new System.Windows.Forms.Label();
             this.closeButton = new System.Windows.Forms.Button();
+            this.iconLinkLabel = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
             // 
             // developedByLabel
@@ -75,7 +77,7 @@
             // thanksLabel
             // 
             this.thanksLabel.AutoSize = true;
-            this.thanksLabel.Location = new System.Drawing.Point(81, 90);
+            this.thanksLabel.Location = new System.Drawing.Point(81, 101);
             this.thanksLabel.Name = "thanksLabel";
             this.thanksLabel.Size = new System.Drawing.Size(157, 13);
             this.thanksLabel.TabIndex = 4;
@@ -84,7 +86,7 @@
             // closeButton
             // 
             this.closeButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.closeButton.Location = new System.Drawing.Point(12, 119);
+            this.closeButton.Location = new System.Drawing.Point(12, 131);
             this.closeButton.Name = "closeButton";
             this.closeButton.Size = new System.Drawing.Size(299, 39);
             this.closeButton.TabIndex = 0;
@@ -92,11 +94,23 @@
             this.closeButton.UseVisualStyleBackColor = true;
             this.closeButton.Click += new System.EventHandler(this.closeButton_Click);
             // 
+            // iconLinkLabel
+            // 
+            this.iconLinkLabel.AutoSize = true;
+            this.iconLinkLabel.Location = new System.Drawing.Point(63, 75);
+            this.iconLinkLabel.Name = "iconLinkLabel";
+            this.iconLinkLabel.Size = new System.Drawing.Size(199, 13);
+            this.iconLinkLabel.TabIndex = 5;
+            this.iconLinkLabel.TabStop = true;
+            this.iconLinkLabel.Text = "Icon by Chanut from Flaticon.com";
+            this.iconLinkLabel.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.iconLinkLabel_LinkClicked);
+            // 
             // AboutForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(323, 173);
+            this.ClientSize = new System.Drawing.Size(323, 184);
+            this.Controls.Add(this.iconLinkLabel);
             this.Controls.Add(this.closeButton);
             this.Controls.Add(this.thanksLabel);
             this.Controls.Add(this.versionNumberLabel);
@@ -105,6 +119,7 @@
             this.Controls.Add(this.developedByLabel);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
@@ -124,5 +139,6 @@
         private System.Windows.Forms.Label versionNumberLabel;
         private System.Windows.Forms.Label thanksLabel;
         private System.Windows.Forms.Button closeButton;
+        private System.Windows.Forms.LinkLabel iconLinkLabel;
     }
 }

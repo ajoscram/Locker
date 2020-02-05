@@ -18,7 +18,7 @@ namespace LockerUI
         private void loadStrings()
         {
             this.Text = Settings.GetString(this);
-            List<Control> controls = new List<Control> { developedByLabel, versionLabel, thanksLabel, closeButton };
+            List<Control> controls = new List<Control> { developedByLabel, versionLabel, thanksLabel, closeButton, iconLinkLabel };
             loadStrings(controls);
         }
 
@@ -35,6 +35,15 @@ namespace LockerUI
                 this.Dispose();
                 Application.Exit();
             }
+        }
+
+        private void iconLinkLabel_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            try
+            {
+                iconLinkLabel.LinkVisited = true;
+                System.Diagnostics.Process.Start("https://www.flaticon.com/authors/chanut");
+            } catch { }
         }
     }
 }

@@ -29,6 +29,7 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileForm));
             this.fieldListbox = new System.Windows.Forms.ListBox();
             this.fieldTextboxContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
             this.copyToClipboardMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -127,7 +128,7 @@
             this.searchLabel.Font = new System.Drawing.Font("Consolas", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.searchLabel.Location = new System.Drawing.Point(3, 5);
             this.searchLabel.Name = "searchLabel";
-            this.searchLabel.Size = new System.Drawing.Size(25, 22);
+            this.searchLabel.Size = new System.Drawing.Size(31, 22);
             this.searchLabel.TabIndex = 1;
             this.searchLabel.Text = "🔍";
             // 
@@ -351,6 +352,7 @@
             this.Controls.Add(this.menu);
             this.Controls.Add(this.fieldListbox);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MainMenuStrip = this.menu;
             this.Name = "FileForm";

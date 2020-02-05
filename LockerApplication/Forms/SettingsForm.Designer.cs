@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(SettingsForm));
             this.minutesNumeric = new System.Windows.Forms.NumericUpDown();
             this.secondsNumeric = new System.Windows.Forms.NumericUpDown();
             this.label3 = new System.Windows.Forms.Label();
@@ -99,6 +100,7 @@
             // 
             // languageCombobox
             // 
+            this.languageCombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.languageCombobox.FormattingEnabled = true;
             this.languageCombobox.Location = new System.Drawing.Point(76, 12);
             this.languageCombobox.Name = "languageCombobox";
@@ -128,6 +130,7 @@
             this.Controls.Add(this.languageLabel);
             this.Font = new System.Drawing.Font("Consolas", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.KeyPreview = true;
             this.MaximizeBox = false;
             this.MinimizeBox = false;

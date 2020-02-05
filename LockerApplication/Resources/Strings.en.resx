@@ -825,4 +825,7 @@ Thanks for reading!</value>
   <data name="FILE_ERROR_MISSING_KEY" xml:space="preserve">
     <value>There is no field whose key matches the query.</value>
   </data>
+  <data name="UI_AboutForm_iconLinkLabel" xml:space="preserve">
+    <value>Icon by Chanut from Flaticon.com</value>
+  </data>
 </root>
