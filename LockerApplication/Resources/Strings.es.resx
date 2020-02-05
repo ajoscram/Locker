@@ -1,0 +1,828 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_ARGUMENT" xml:space="preserve">
+    <value>Se esperaba un sub-argumento.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_ENCRYPTER" xml:space="preserve">
+    <value>Se esperaba un nombre de encriptador después de la contraseña para el argumento -decrypt.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_FIELD" xml:space="preserve">
+    <value>Se esperaba una llave de campo después del argumento -field.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_FILEPATH" xml:space="preserve">
+    <value>Se esperaba una ruta a un archivo después del argumento -file.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_FLAG" xml:space="preserve">
+    <value>Se experaba un argumento.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_EXPECTED_PASSWORD" xml:space="preserve">
+    <value>Se experaba una contraseña después del argumento -decrypt.</value>
+  </data>
+  <data name="COMMAND_LINE_ERROR_MESSAGE" xml:space="preserve">
+    <value>Los siguientes errores ocurrieron mientras se analizaba la línea de comandos:</value>
+  </data>
+  <data name="ENCRYPTER_ERROR_EMPTY_MESSAGE" xml:space="preserve">
+    <value>El encriptador recibió un mensaje vacío.</value>
+  </data>
+  <data name="ENCRYPTER_ERROR_EMPTY_PASSWORD" xml:space="preserve">
+    <value>El encriptador recibió una contraseña vacía.</value>
+  </data>
+  <data name="FILE_ERROR_CHECKS_DID_NOT_MATCH" xml:space="preserve">
+    <value>Falló el checkeo de archivo. ¿Está seguro que introdujo la contraseña correcta?</value>
+  </data>
+  <data name="FILE_ERROR_DIRECTORY_NOT_FOUND" xml:space="preserve">
+    <value>El directorio expecificado no fue encontrado.</value>
+  </data>
+  <data name="FILE_ERROR_EMPTY_KEY" xml:space="preserve">
+    <value>Debe introducir una llave.</value>
+  </data>
+  <data name="FILE_ERROR_EMPTY_VALUE" xml:space="preserve">
+    <value>Debe introducir un valor.</value>
+  </data>
+  <data name="FILE_ERROR_FIELD_DOES_NOT_CONTAIN_FIELD_SEPARATOR" xml:space="preserve">
+    <value>El campo no contiene el caracter separador de propiedades (TAB).</value>
+  </data>
+  <data name="FILE_ERROR_FILE_NOT_FOUND" xml:space="preserve">
+    <value>El archivo especificado no fue encontrado. Revise si el archivo fue movido o borrado e intente de nuevo.</value>
+  </data>
+  <data name="FILE_ERROR_IO_ERROR" xml:space="preserve">
+    <value>Hubo un error de Entrada/Salida. Esto es usualmente causado por problemas de hardware.</value>
+  </data>
+  <data name="FILE_ERROR_KEY_CONTAINS_FIELD_SEPARATOR" xml:space="preserve">
+    <value>La llave contiene el caracter separador de campos (SALTO DE LÍNEA).</value>
+  </data>
+  <data name="FILE_ERROR_KEY_CONTAINS_PROPERTY_SEPARATOR" xml:space="preserve">
+    <value>La llave contiene el caracter separador de propiedades (TAB).</value>
+  </data>
+  <data name="FILE_ERROR_MISSING_KEY" xml:space="preserve">
+    <value>No existe ningún campo con la llave indicada.</value>
+  </data>
+  <data name="FILE_ERROR_NON_VALID_PATH" xml:space="preserve">
+    <value>La ruta al archivo indicada no es válida.</value>
+  </data>
+  <data name="FILE_ERROR_PATH_TOO_LONG" xml:space="preserve">
+    <value>La ruta al archivo indicada es demasiado larga para Windows. Mueva el archivo e intente de nuevo.</value>
+  </data>
+  <data name="FILE_ERROR_UNAUTHORIZED_ACCESS" xml:space="preserve">
+    <value>Usted no cuenta con el permiso para leer o escribir en este directorio.</value>
+  </data>
+  <data name="FILE_ERROR_VALUE_CONTAINS_FIELD_SEPARATOR" xml:space="preserve">
+    <value>El valor contiene el caracter separador de campos (SALTO DE LÍNEA).</value>
+  </data>
+  <data name="UI_AboutForm" xml:space="preserve">
+    <value>Acerca de Locker</value>
+  </data>
+  <data name="UI_AboutForm_closeButton" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="UI_AboutForm_developedByLabel" xml:space="preserve">
+    <value>Desarrollado por:</value>
+  </data>
+  <data name="UI_AboutForm_thanksLabel" xml:space="preserve">
+    <value>Gracias por usar Locker!</value>
+  </data>
+  <data name="UI_AboutForm_versionLabel" xml:space="preserve">
+    <value>Versión:</value>
+  </data>
+  <data name="UI_FieldForm" xml:space="preserve">
+    <value>Nuevo Campo</value>
+  </data>
+  <data name="UI_FieldForm_addButton" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="UI_FieldForm_keyLabel" xml:space="preserve">
+    <value>Llave:</value>
+  </data>
+  <data name="UI_FieldForm_valueLabel" xml:space="preserve">
+    <value>Valor:</value>
+  </data>
+  <data name="UI_FileForm" xml:space="preserve">
+    <value>Locker</value>
+  </data>
+  <data name="UI_FileForm_aboutMenuItem" xml:space="preserve">
+    <value>Acerca de</value>
+  </data>
+  <data name="UI_FileForm_addMenuItem" xml:space="preserve">
+    <value>Agregar</value>
+  </data>
+  <data name="UI_FileForm_addNewFieldMenuItem" xml:space="preserve">
+    <value>Agregar un Nuevo Campo</value>
+  </data>
+  <data name="UI_FileForm_changeSettingsMenuItem" xml:space="preserve">
+    <value>Cambiar Preferencias</value>
+  </data>
+  <data name="UI_FileForm_closeMenuItem" xml:space="preserve">
+    <value>Cerrar</value>
+  </data>
+  <data name="UI_FileForm_copySelectedToClipboardMenuItem" xml:space="preserve">
+    <value>Copiar Seleccionado al Portapapeles</value>
+  </data>
+  <data name="UI_FileForm_copyToClipboardMenuItem" xml:space="preserve">
+    <value>Copiar al Portapapeles</value>
+  </data>
+  <data name="UI_FileForm_deleteMenuItem" xml:space="preserve">
+    <value>Borrar</value>
+  </data>
+  <data name="UI_FileForm_deleteSelectedMenuItem" xml:space="preserve">
+    <value>Borrar Seleccionado</value>
+  </data>
+  <data name="UI_FileForm_DELETE_FIELD" xml:space="preserve">
+    <value>¿Está seguro que desea eliminar el campo?
+Esto no se puede deshacer.</value>
+  </data>
+  <data name="UI_FileForm_editMenuItem" xml:space="preserve">
+    <value>Editar</value>
+  </data>
+  <data name="UI_FileForm_exitMenuItem" xml:space="preserve">
+    <value>Salir</value>
+  </data>
+  <data name="UI_FileForm_fileMenuItem" xml:space="preserve">
+    <value>Archivo</value>
+  </data>
+  <data name="UI_FileForm_FILE_SAVED" xml:space="preserve">
+    <value>Archivo guardado!</value>
+  </data>
+  <data name="UI_FileForm_helpMenuItem" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="UI_FileForm_newMenuItem" xml:space="preserve">
+    <value>Nuevo</value>
+  </data>
+  <data name="UI_FileForm_NEW_FILE" xml:space="preserve">
+    <value>Nuevo Archivo</value>
+  </data>
+  <data name="UI_FileForm_noFileLabel" xml:space="preserve">
+    <value>Presione Ctrl+O para abrir un archivo.
+Presione Ctrl+N para crear un archivo.</value>
+  </data>
+  <data name="UI_FileForm_NO_FIELD_SELECTED" xml:space="preserve">
+    <value>Ningún campo seleccionado.</value>
+  </data>
+  <data name="UI_FileForm_NO_FILE_OPENED" xml:space="preserve">
+    <value>Ningún archivo abierto.</value>
+  </data>
+  <data name="UI_FileForm_openMenuItem" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="UI_FileForm_OVERWRITE_KEY" xml:space="preserve">
+    <value>La llave del campo ya existe en el archivo. Desea sobreescribirla?</value>
+  </data>
+  <data name="UI_FileForm_saveMenuItem" xml:space="preserve">
+    <value>Guardar Como</value>
+  </data>
+  <data name="UI_FileForm_settingsMenuItem" xml:space="preserve">
+    <value>Preferencias</value>
+  </data>
+  <data name="UI_FileForm_sortAlphabeticallyMenuItem" xml:space="preserve">
+    <value>Ordenar Alfabéticamente</value>
+  </data>
+  <data name="UI_FileForm_UNSAVED_CHANGES" xml:space="preserve">
+    <value>Usted tiene cambios sin guardar. Desea guardar antes de cerrar el archivo?</value>
+  </data>
+  <data name="UI_FileForm_viewHelpMenuItem" xml:space="preserve">
+    <value>Ver Ayuda</value>
+  </data>
+  <data name="UI_Form_LOCKER" xml:space="preserve">
+    <value>Locker</value>
+  </data>
+  <data name="UI_HelpForm" xml:space="preserve">
+    <value>Ayuda</value>
+  </data>
+  <data name="UI_HelpForm_commandLineTab" xml:space="preserve">
+    <value>Línea de Comandos</value>
+  </data>
+  <data name="UI_HelpForm_commandLineTextbox" xml:space="preserve">
+    <value>
+The command line interface is probably the hardest topic to cover regarding Locker. It also happens to be the most rewarding.
+
+But don't fret, about 30 minutes should be more than sufficient to fully grasp how it works.
+
+First off and most importantly there are a couple of prerequisites to using a program via the command line. As a matter of fact, if you know how to use it skip straight to the list of arguments at the end of this section, you already know all of the hard stuff.
+
+So first thing's first: executing a program. To do this open the command line by pressing the Windows key on your keyboard and searching for "cmd".
+
+What you're looking for is the command prompt. We're going to test things here.
+
+Notice how you're landed on a directory by default. It is the one written before the blinking cursor indicator.
+
+Currently, your prompt should look something like this:
+
+C:\Your\Current\Path&gt;
+
+To run Locker from here, you must change the prompt's directory to wherever you installed it via a command called "cd" (short for change directory).
+
+Easy enough, only type cd, hit Enter and voilá right? Slow your roll. We need to tell cd where we want to move the current directory to.
+
+The easiest way to do this on Windows is to open a file explorer and navigate to the directory which contains the folder that in turn contains Locker.exe.
+
+Drag and drop that folder into the command prompt and it will paste its path as a string of characters.
+
+You could also type out the path yourself, but that tends to be a lot more tedious than this method.
+
+This path we're handing cd is know as an argument, a piece of information that alters cd's behaviour.
+
+Your prompt should look something like this:
+
+C:\Your\Current\Path&gt; cd C:\Lockers\Current\Folder
+
+(Note: sometimes the path will be enclosed air quotes (""). Don't worry, it makes no difference. Those air quotes are needed if some of the folder names in that path have spaces in them.)
+
+If you hit Enter at this point to execute your command, your prompt should change the current directory to where Locker is located.
+
+It should've changed to something like this:
+
+C:\Lockers\Current\Folder&gt;
+
+And you're set! Now you can call Locker as a command. Try typing "locker" and hitting Enter.
+
+If a new instance of Locker didn't open, then re-do the steps and try again. If it did, congratulations! Now we can move on to the next part: using arguments for Locker.
+
+In order to pass arguments to Locker, simply type them out separated by spaces after writing the program name and before hitting Enter, just like we did with cd.
+
+There are a total of five arguemnts locker can receive: -new, -file, -decrypt, -ui and -field. These are explained in detail below, but for now let's use -ui and -new. Your prompt should look something like this:
+
+C:\Your\Locker\Path&gt; locker -new -ui
+
+When you hit Enter, a new Locker instance should have opened, and inside it a new file.
+
+This is because the -ui argument tells Locker that you want to open the graphical user interface (or in other words, Locker's main window), and -new tells it to open a new file in it.
+
+But hang on, previously we didn't need to write anything and Locker still opened the user interface, so what's the point of -ui?
+
+If you pass no arguments at all to Locker, it defaults to the user interface. But if you include other arguments and not -ui, Locker will NOT open a single window.
+
+This is because usually, if we're using the command line to open Locker we're not interested in the user interface.
+
+To further illustrate this point let's look at the last three arguments: -file, -decrypt and -field.
+
+To use these we need to provide them with arguments. Much like how we provide Locker with arguments, these arguments must be provided with other arguments to work.
+
+For these upcoming steps you'll need a Locker file, so go ahead and create one and add some fields. If you have one already, good, we can move on.
+
+First step is typing the stuff we need to set the stage in the command line, by now it should look something like this:
+
+C:\Lockers\Current\Folder&gt; locker -file
+
+As you probably could expect by the name, -file needs a path to a file to work. To fetch that path use the same technique you used for cd's directory, but this time drag and drop your .locker file instead.
+
+Your command line should now include the path to the file:
+
+C:\Lockers\Current\Folder&gt; locker -file C:\Users\Me\Documents\file.locker
+
+Go ahead and hit Enter. If nothing happened then great! That's what's supposed to happen.
+
+See, right now all you've done here is hand Locker the path to a file. Remember that files must be decrypted to be read from in the first place, so Locker has no option but to do nothing since you've given it incomplete information.
+
+For that we're going to need that last command we just executed, so instead of typing it out again press the UP arrow on your keyboard. The command line should reset to the last command executed.
+
+As is probably expected by the name of the argument, -decrypt allows us to decrypt the file. As opposed to -file, -decrypt actually takes two sub arguments: a password and an encrypter name.
+
+The password and encrypter MUST be the ones you used earlier when creating and encrypting your file. It is also important to note that these two sub arguments MUST always come in that exact order and none can be omitted.
+
+So go ahead and add the -decrypt argument to your command line with the arguments it needs. Currently it should look like this:
+
+C:\Lockers\Current\Folder&gt; locker -file C:\Users\Me\Documents\file.locker -decrypt my_password XOR
+
+(Note: if your password has spaces in it, make sure to enclose it with airquotes like this: "my password". Same thing goes for the encrypter name if needed.)
+
+Go ahead and hit Enter again. Aaaaaaaand nothing. Great! That's how it should work. It seems like I'm making you do a whole lotta nothing but trust me, we're getting there.
+
+The reason why this time nothing happened is because Locker took your file, decrypted it and... then what? You didn't tell it what to do with it!
+
+That's where the last command comes into play: -field.
+
+If you've decrypted your file correctly, -field uses a field's key which you provide to fetch that field's value from your file and paste it into the Windows clipboard.
+
+Hit the UP arrow one more time to retrieve our last command. Add the -field argument and the key of a field in that file. Your command line should look something like this:
+
+C:\Lockers\Current\Folder&gt; locker -file C:\Users\Me\Documents\file.locker -decrypt my_password xor -field Skype
+
+(Note: both passwords and field keys must use the same capitalization as when you created them. This is for security reasons.)
+
+For the last time, go ahead and hit Enter. Now this time around the value of the field you specified should remain in your clipboard until it times out.
+
+Hooray! You've finally fetched a field through the command line into the clipboard. As a side-note you can still do all of this and call -ui on top, even when some of these arguments are missing.
+
+What follows is a list of all possible ways to start locker with the -ui argument using our previous example:
+
+C:\Lockers\Current\Folder&gt; locker -ui -file C:\Users\Me\Documents\file.locker
+
+(This opens a new Locker instance and asks you for decrypt info right away, no need to pick the file again)
+
+C:\Lockers\Current\Folder&gt; locker -ui -file C:\Users\Me\Documents\file.locker -decrypt my_password xor
+
+(This opens the file in a new Locker instance and decrypts it right away)
+
+C:\Lockers\Current\Folder&gt; locker -ui -file C:\Users\Me\Documents\file.locker -decrypt my_password xor -field Skype
+
+(This does the same as before but copies the field indicated to the clipboard right away)
+
+Some of you at this point might be scratching your heads wondering how any of this is better than using the regular old graphical user interface. The answer is: batch files.
+
+A Windows batch file (the ones with a .bat extension) is a collection of commands that can be run by the command line, as if you had written them in it yourself.
+
+Let me show you an example of what a batch file would look like:
+
+cd "C:\Programs Files\Program Folder"
+start program
+cd C:\Lockers\Current\Folder
+start locker -file -file C:\Users\Me\Documents\file.locker -decrypt my_password xor -field Program 
+
+(Note: there are a total of four commands issued in the example, if you see more than four lines try stretching the help window to fit them in and avoid confusion.)
+
+Let's go line by line. The first line uses cd to change the current directory to the location of the program you wish to open.
+
+The second line starts that program. Unlike typing these commands out yourself, the batch file needs to be told to start programs.
+
+The third one moves the directory to where you installed locker.
+
+And finally the fourth runs locker and fetches the password for that program into the clipboard.
+
+If you were to create a similar batch file via Notepad or another text editor (remember to change the file extension to .bat) and then run that file, all those lines will be executed.
+
+Now all you need to do is run that file instead whenever you want to open your program, and the password for that program will immediately be available for use by simply pasting from the clipboard. Pretty nifty huh?
+
+Make sure to keep those batch files in a safe location though, because at the end of the day they do contain you password.
+
+And that's it! Now you know absolutely everything you need to know when it comes to Locker.
+
+If you ever need a refresher of how to use any of these arguments, check out the list below. Thanks for reading!
+
+ARGUMENTS:
+
+	-ui
+	
+Instructs Locker to open its graphical user interface. Can be used in addition to other command combinations to get different results.
+
+	-new
+
+Opens a new file.
+
+	-file path
+
+Opens a file for Locker to work with located in path. If you use -new and -file in the same command then -file takes precedence over -new.
+
+	-decrypt password encrypter
+
+Gives Locker the information it needs to decrypt a file. Needs a -file argument to work. Both the password and the encrypter MUST come in the order presented.
+
+	-field key
+
+Fetches a field given its key from a decrypted file and copies its value to the clipboard. Needs both -file and -decrypt arguments to work.</value>
+  </data>
+  <data name="UI_HelpForm_encryptersTab" xml:space="preserve">
+    <value>Encriptadores</value>
+  </data>
+  <data name="UI_HelpForm_encryptersTextbox" xml:space="preserve">
+    <value>
+Encrypters are the way Locker encrypts and decrypts text in files.
+
+Whenever you save a new file, you'll be prompted for a password and an encrypter.
+
+An encrypter's job is to take your file and scramble (or encrypt) its contents into a new file that is completely different to the old one.
+
+To make sure your files can't be easily decrypted via illegitimate means, encrypters use the password you provide to do their job.
+
+Usually a bit of math or clever use of your password is enough to keep your file secure, even with somewhat crappy passwords.
+
+It is still very much recommended to use a long password nonetheless, about at least 10 characters long. It's the only one you'll have to remember from now on so, yeah, make it strong. 
+
+Once you've created and stored your file, you might want to open it later for future use (duh).
+
+In that case you'll need to provide the same password and encrypter as when you saved it.
+
+The encrypter will then decrypt your file via your password and check if it follows the file structure discussed on the previous "Files" section.
+
+If you feed the wrong encrypter the right password, it WILL fail, so make sure that doesn't happen when opening a file.
+
+If you don't wish to encrypt your file, there is an encrypter which literally does nothing to it. Not sure why you'd use it, but it is marked under "None" in the list of encrypters if you so desire.
+
+That's pretty much about it for the simple decrypter explanation. What lies below in this section is an explanation of how every encrypter works.
+
+If you don't feel like reading through every algorithm that comes with Locker then feel free to skip the rest of this section. When picking an encrypter to use, choose whichever sounds coolest to you :P
+
+For those who are interested in how every algorithm works, what follows is a list describing how every encrypter handles both encryption and decryption.
+
+None: 
+	Encryption: It does nothing to your file and stores
+	it with the structure described in the "File"
+	section. Your password does not matter at all.
+	
+	Decryption: Again does nothing and reads the file.
+	It's important to note checks are still needed.
+
+XOR:
+	Encryption: It performs a bit-wise XOR operation
+	character by character. Once it reaches the end
+	of your password it wraps around and starts again
+	from the beginning, until every character in the
+	file has been modified.
+	
+	Decryption: Performs exactly the same algorithm as
+	when encrypting. This is because XOR has a pretty
+	nifty property when applied twice with the same
+	password: it returns the original text
+	(otherwise known as a symmetrical algorithm).</value>
+  </data>
+  <data name="UI_HelpForm_filesTab" xml:space="preserve">
+    <value>Archivos</value>
+  </data>
+  <data name="UI_HelpForm_filesTextbox" xml:space="preserve">
+    <value>
+As was mentioned in the general section, files are the way Locker stores its data (to no one's surprise).
+
+Every file you create is as big as the number of fields you add, plus an insignificant amout of data to keep structure.
+
+But what's a field? Every entry on a file is called a "field". Fields consist of two parts: a "key" and a "value".
+
+A key is the name of the field. A value is the contents you wish to hide.
+
+For example, if I want to store my Skype password "cute_cats!", "Skype" would be my key and and "cute_cats!" my value.
+
+Fields are stored in files line by line, like this:
+
+Skype	cute_cats!
+Gmail	cute_dogs?
+Steam	cute_pug
+
+Since the line-break is needed to separate fields, keys or values may not include the new-line character (the one made after you press Enter on your keyboard).
+
+Also, you may have noticed there is a bunch of whitespace separating the key and value in every field.
+
+This is known as the Tab character (the one created after pressing Tab on your keyboard).
+
+Keys must not include the Tab character for this reason, but values on the other hand have no problem with it.
+
+Finally, there is one last bit which we haven't discussed: checks.
+
+Checks are a way to, well, check if when you decrypt a file you get back the file you originally created.
+
+As a user, you don't need to worry about creating a file's check, they are created automatically whenever you save a file.
+
+Our previous file with checks would look like this:
+
+THIS IS A CHECK LINE
+Skype	cute_cats!
+Gmail	cute_dogs?
+Steam	cute_pug
+THIS IS A CHECK LINE
+
+Notice how the first and last lines are the same text ("THIS IS A CHECK LINE")? That's because they must be the same.
+
+After decrypting a file, Locker checks if the first and last lines match. If they do, voilá your file was correctly decrypted. If they don't, then you'll be prompted with an error.
+
+In the example, the check was just a normal readable string of text. When you save a file, a much more random one will be generated.
+
+In summary,
+	
+	1) Keys and values must not include a line-break.
+	2) Keys must not include a Tab.
+	3) The first and last lines of a file are a check,
+	   and they must be the same.
+
+These three rules are enforced by Locker when saving and opening files, but keep them in mind if you tamper with files elsewhere.
+
+Once you have created a file, you can move it around or place it where you like. Locker automatically puts a .locker extension on files, but you can give them any extension you'd like before saving.
+
+That's it when it comes to files!</value>
+  </data>
+  <data name="UI_HelpForm_functionalityTab" xml:space="preserve">
+    <value>Funcionalidad</value>
+  </data>
+  <data name="UI_HelpForm_functionalityTextbox" xml:space="preserve">
+    <value>
+There are three major ways you can interact with Locker (other than the command line, which will be discussed in another section):
+
+	1) The menu at the top of the main window
+	   (the main menu).
+	2) Once a file is opened, through the menu
+	   available via right-clicking the file's
+	   space on screen
+	   (the file's context menu).
+	3) Keyboard shortcuts for the most important
+	   features.
+
+For the most part, if you browse through the main menu you'll get a good grasp of Locker's features.
+
+It's also worth noting that every possible keyboard shortcut is listed there, so if you're not completely new to using software feel free to browse the main menu and skip this section.
+
+If you ever feel like you need to clarify something, just come here and look it up in the list below.
+
+What follows from this point on is a list of every feature and how to use it:
+
+	1) CREATING A NEW FILE
+
+Main Menu:
+	File &gt; New
+
+Keyboard Shortcut:
+	Ctrl+N
+
+A brand new file will be opened on screen.
+
+If another file is already open, it opens a new instance of Locker with a new file in it.
+
+	2) OPENING AN EXISTING FILE
+
+Main Menu:
+	File &gt; Open
+	
+Keyboard Shortcut:
+	Ctrl+O
+
+You'll be prompted for a password and an encrypter. Once you press "Open" you'll need to choose the file to open.
+
+If you input the correct file, password and encrypter your file should be loaded onto Locker. If anything goes wrong, you'll be notified via an error message.
+
+If you already have another file opened then a new instance of Locker will be opened with the same file, password and encrypter you just selected.
+
+	3) SAVING A FILE
+
+Main Menu:
+Select File &gt; Save As
+
+Keyboard Shortcut:
+Press Ctrl+S
+
+You'll be prompted for a password and an encrypter. Once you press "Save" you'll need to choose the directory and name of the file.
+
+Your new file will be created in the directory chosen. Remember that your selected password and encrypter are very important when opening it later on!
+
+	4) CLOSING A FILE
+
+Main Menu:
+	File &gt; Close
+
+Keyboard Shortcut:
+	Ctrl+K
+
+Closes the file you have open on screen, obviously. If you have unsaved changes to the file, you'll be asked if you wish to save them before closing.
+
+	5) EXITING THE APPLICATION
+
+Main Menu:
+	File &gt; Exit
+
+Keyboard Shortcut:
+	Alt+F4
+
+This is equivalent to closing the file and then closing the application. Similarly to closing a file, if you have unsaved changes you'll be asked if you want to keep them before exiting.
+
+	6) ADDING A NEW FIELD
+
+Main Menu:
+	Edit &gt; Add New Field
+
+Keyboard Shortcut:
+	Ctrl+A
+
+File's Context Menu:
+	Add
+
+You'll be prompted for a new key and value. Once you're done typing press "Add" and the field's key you just added should appear on the file.
+
+	7) DELETING A FIELD
+
+Main Menu:
+	Edit &gt; Delete Selected
+
+Keyboard Shortcut:
+	Del (Delete)
+
+File's Context Menu:
+	Delete
+
+Deletes the selected field from the file. To select a field, click it in the list of fields (a.k.a. the file space), it should show up blue. You'll be asked to confirm deletion.
+
+	8) COPYING A FIELD'S VALUE TO THE CLIPBOARD
+	
+Main Menu:
+	Edit &gt; Copy Selected to Clipboard
+
+Keyboard Shortcut:
+	Ctrl+C
+
+File's Context Menu:
+	Copy to Clipboard
+
+Copies the contents of a selected field's value to the Windows clipboard. It's important to note that the value doesn't stay there forever, after a timeout period (which will be discussed later on) the value on the clipboard will be removed.
+
+	9) FILTERING FIELDS
+
+To filter fields, simply type in the text bar at the bottom of the screen. Any field whose key does not include that text will be hidden. To reset the filter clear the text box.
+
+	10) SORTING FIELDS ALPHABETICALLY
+	
+Main Menu:
+	Settings &gt; Sort Alphabetically
+
+As implied, this sorts all fields in the file alphabetically. It's important to note that this is a persisted feature, meaning that if you close the program and open it again fields will remain sorted.
+
+If you wish to turn it off, simply click it again in the menu. You can tell it is on if it has a check mark next to it.
+	
+	11) CHANGING SETTINGS
+	
+Main Menu:
+	Settings &gt; Change Settings
+
+There are only two settings in Locker: language and clipboard timeout. Once you click Change Settings in the main manu you'll be prompted for both. This is what they do:
+
+	11.a) LANGUAGE
+
+To change the language select the one you want from the list of available languages. Currently only English and Spanish have been added. Language changes will take effect once you save your settings.
+
+	11.b) CLIPBOARD TIMEOUT
+
+The clipboard timeout dictates how much time needs to pass to clear the clipboard when copying a value to it. The first box from left to right selects the number of minutes and the other one seconds. You can keep a value in the clipboard up to a maximum of 9 minutes and 59 seconds.
+
+And that's every feature present in Locker! I hope you could find what you were looking for in this section :)
+
+If you have no interest in using the command line functionality, you officially know everything you need to use Locker.
+
+I, however, urge you to revisit the Command Line section at some point. It makes password managing very seemless once you have everything set up.
+
+Thanks for reading!</value>
+  </data>
+  <data name="UI_HelpForm_generalTab" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="UI_HelpForm_generalTextbox" xml:space="preserve">
+    <value>
+Hello, welcome to Locker!
+
+Locker is a small open source program made to make passwords easier to manage and maintain.
+
+At its core, Locker allows you to create files which store pairs of "keys" and "values" called fields, that can be encrypted or decrypted through different encryption algorithms (called "encrypters" in this program).
+
+Futhermore, it can be called from the command line (or alternatively a batch file) to easily retrieve any field you want directly into the Windows clipboard.
+
+Throughout these writings you'll hopefully find information to squash any doubt regarding how Locker works.
+
+Click on any of the other sections above to learn more. It is recommended to follow the section order presented (left to right) to fully understand every concept clearly.
+
+It's not too much stuff there anyway, Locker is fairly straight forward if you've ever used another program. Ever.
+
+If you still have doubts after reading, feel free to contact me via email at ajoscram@gmail.com.
+
+Thanks for dowloading Locker!</value>
+  </data>
+  <data name="UI_OpenForm" xml:space="preserve">
+    <value>Abrir Archivo</value>
+  </data>
+  <data name="UI_OpenForm_encryptionLabel" xml:space="preserve">
+    <value>Encripción:</value>
+  </data>
+  <data name="UI_OpenForm_openButton" xml:space="preserve">
+    <value>Abrir</value>
+  </data>
+  <data name="UI_OpenForm_passwordLabel" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="UI_SaveForm" xml:space="preserve">
+    <value>Guardar Archivo</value>
+  </data>
+  <data name="UI_SaveForm_encryptionLabel" xml:space="preserve">
+    <value>Encripción:</value>
+  </data>
+  <data name="UI_SaveForm_passwordLabel" xml:space="preserve">
+    <value>Contraseña:</value>
+  </data>
+  <data name="UI_SaveForm_saveButton" xml:space="preserve">
+    <value>Guardar</value>
+  </data>
+  <data name="UI_SettingsForm" xml:space="preserve">
+    <value>Preferencias</value>
+  </data>
+  <data name="UI_SettingsForm_clipboardLabel" xml:space="preserve">
+    <value>Tiempo para copias:</value>
+  </data>
+  <data name="UI_SettingsForm_languageLabel" xml:space="preserve">
+    <value>Lenguaje:</value>
+  </data>
+  <data name="UI_SettingsForm_saveButton" xml:space="preserve">
+    <value>Guardar Cambios</value>
+  </data>
+  <data name="UI_SettingsForm_SETTINGS_SAVED" xml:space="preserve">
+    <value>Preferencias guardadas!</value>
+  </data>
+  <data name="UI_SettingsForm_TIME_EQUALS_ZERO" xml:space="preserve">
+    <value>Debe poner por lo menos un segundo de tiempo para las copias en el portapapeles.</value>
+  </data>
+</root>
