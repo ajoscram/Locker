@@ -24,6 +24,12 @@ namespace Locker
             CultureInfo.CurrentUICulture = new CultureInfo((int)SelectedLanguage);
         }
 
+        public static Encrypter SelectedEncrypter
+        {
+            get{ return Encrypter.Get(Properties.Settings.Default.Encrypter); }
+            set{ Properties.Settings.Default.Encrypter = value.ToString(); }
+        }
+
         public static Language SelectedLanguage
         {
             get { return (Language)Properties.Settings.Default.Language; }

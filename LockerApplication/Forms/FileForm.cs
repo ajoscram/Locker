@@ -300,6 +300,7 @@ namespace Locker
         private void viewHelpMenuItem_Click(object sender, EventArgs e)
         {
             new HelpForm(this).Show();
+            Process.Start("https://github.com/ajoscram/Locker/wiki");
         }
 
         private void aboutMenuItem_Click(object sender, EventArgs e)

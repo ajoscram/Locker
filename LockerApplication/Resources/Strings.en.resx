@@ -251,7 +251,7 @@ Press Ctrl+N to create a new file.</value>
     <value>Sort Alphabetically</value>
   </data>
   <data name="UI_FileForm_viewHelpMenuItem" xml:space="preserve">
-    <value>View Help</value>
+    <value>View Help Online</value>
   </data>
   <data name="UI_OpenForm" xml:space="preserve">
     <value>Open File</value>
@@ -827,5 +827,14 @@ Thanks for reading!</value>
   </data>
   <data name="UI_AboutForm_iconLinkLabel" xml:space="preserve">
     <value>Icon by Chanut from Flaticon.com</value>
+  </data>
+  <data name="UI_SettingsForm_encrypterLabel" xml:space="preserve">
+    <value>Encrypter:</value>
+  </data>
+  <data name="ENCRYPTER_ERROR_NOT_FOUND" xml:space="preserve">
+    <value>The encrypter selected was not found.</value>
+  </data>
+  <data name="UI_SettingsForm_CHOOSE_ENCRYPTER" xml:space="preserve">
+    <value>Please select a valid encrypter fom the list immediately and save your settings!</value>
   </data>
 </root>

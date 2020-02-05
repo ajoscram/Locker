@@ -36,13 +36,15 @@
             this.saveButton = new System.Windows.Forms.Button();
             this.languageCombobox = new System.Windows.Forms.ComboBox();
             this.languageLabel = new System.Windows.Forms.Label();
+            this.encrypterComboBox = new System.Windows.Forms.ComboBox();
+            this.encrypterLabel = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.minutesNumeric)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.secondsNumeric)).BeginInit();
             this.SuspendLayout();
             // 
             // minutesNumeric
             // 
-            this.minutesNumeric.Location = new System.Drawing.Point(174, 39);
+            this.minutesNumeric.Location = new System.Drawing.Point(175, 79);
             this.minutesNumeric.Maximum = new decimal(new int[] {
             9,
             0,
@@ -54,7 +56,7 @@
             // 
             // secondsNumeric
             // 
-            this.secondsNumeric.Location = new System.Drawing.Point(234, 39);
+            this.secondsNumeric.Location = new System.Drawing.Point(235, 79);
             this.secondsNumeric.Maximum = new decimal(new int[] {
             59,
             0,
@@ -72,7 +74,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(215, 41);
+            this.label3.Location = new System.Drawing.Point(216, 81);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(13, 13);
             this.label3.TabIndex = 7;
@@ -81,7 +83,7 @@
             // clipboardLabel
             // 
             this.clipboardLabel.AutoSize = true;
-            this.clipboardLabel.Location = new System.Drawing.Point(7, 41);
+            this.clipboardLabel.Location = new System.Drawing.Point(8, 81);
             this.clipboardLabel.Name = "clipboardLabel";
             this.clipboardLabel.Size = new System.Drawing.Size(115, 13);
             this.clipboardLabel.TabIndex = 5;
@@ -90,7 +92,7 @@
             // saveButton
             // 
             this.saveButton.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.saveButton.Location = new System.Drawing.Point(11, 65);
+            this.saveButton.Location = new System.Drawing.Point(12, 105);
             this.saveButton.Name = "saveButton";
             this.saveButton.Size = new System.Drawing.Size(257, 39);
             this.saveButton.TabIndex = 4;
@@ -102,9 +104,9 @@
             // 
             this.languageCombobox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.languageCombobox.FormattingEnabled = true;
-            this.languageCombobox.Location = new System.Drawing.Point(76, 12);
+            this.languageCombobox.Location = new System.Drawing.Point(95, 12);
             this.languageCombobox.Name = "languageCombobox";
-            this.languageCombobox.Size = new System.Drawing.Size(193, 21);
+            this.languageCombobox.Size = new System.Drawing.Size(174, 21);
             this.languageCombobox.TabIndex = 0;
             // 
             // languageLabel
@@ -116,11 +118,31 @@
             this.languageLabel.TabIndex = 0;
             this.languageLabel.Text = "Language:";
             // 
+            // encrypterComboBox
+            // 
+            this.encrypterComboBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.encrypterComboBox.FormattingEnabled = true;
+            this.encrypterComboBox.Location = new System.Drawing.Point(95, 46);
+            this.encrypterComboBox.Name = "encrypterComboBox";
+            this.encrypterComboBox.Size = new System.Drawing.Size(174, 21);
+            this.encrypterComboBox.TabIndex = 8;
+            // 
+            // encrypterLabel
+            // 
+            this.encrypterLabel.AutoSize = true;
+            this.encrypterLabel.Location = new System.Drawing.Point(9, 49);
+            this.encrypterLabel.Name = "encrypterLabel";
+            this.encrypterLabel.Size = new System.Drawing.Size(67, 13);
+            this.encrypterLabel.TabIndex = 9;
+            this.encrypterLabel.Text = "Encrypter:";
+            // 
             // SettingsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(279, 117);
+            this.ClientSize = new System.Drawing.Size(279, 157);
+            this.Controls.Add(this.encrypterComboBox);
+            this.Controls.Add(this.encrypterLabel);
             this.Controls.Add(this.minutesNumeric);
             this.Controls.Add(this.secondsNumeric);
             this.Controls.Add(this.label3);
@@ -153,5 +175,7 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.NumericUpDown secondsNumeric;
         private System.Windows.Forms.NumericUpDown minutesNumeric;
+        private System.Windows.Forms.ComboBox encrypterComboBox;
+        private System.Windows.Forms.Label encrypterLabel;
     }
 }

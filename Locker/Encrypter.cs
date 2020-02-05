@@ -6,7 +6,7 @@ namespace Locker
 {
     public abstract class Encrypter
     {
-        public enum Error { EMPTY_MESSAGE, EMPTY_PASSWORD }
+        public enum Error { EMPTY_MESSAGE, EMPTY_PASSWORD, NOT_FOUND }
 
         public static List<Encrypter> ENCRYPTERS;
 
@@ -16,6 +16,13 @@ namespace Locker
             List<Type> types = typeof(Encrypter).Assembly.GetTypes().Where(type => type.IsSubclassOf(typeof(Encrypter))).ToList();
             foreach (Type type in types)
                 ENCRYPTERS.Add((Encrypter)Activator.CreateInstance(type));
+        }
+
+        public static Encrypter Get(string name) {
+            foreach(Encrypter encrypter in ENCRYPTERS)
+                if (encrypter.Name == name)
+                    return encrypter;
+            throw new EncrypterException(Error.NOT_FOUND, name);
         }
 
         public abstract string Name { get; }

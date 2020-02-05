@@ -297,7 +297,7 @@ Presione Ctrl+N para crear un archivo.</value>
     <value>Usted tiene cambios sin guardar. Desea guardar antes de cerrar el archivo?</value>
   </data>
   <data name="UI_FileForm_viewHelpMenuItem" xml:space="preserve">
-    <value>Ver Ayuda</value>
+    <value>Ver Ayuda en Línea</value>
   </data>
   <data name="UI_Form_LOCKER" xml:space="preserve">
     <value>Locker</value>
@@ -827,5 +827,14 @@ Thanks for dowloading Locker!</value>
   </data>
   <data name="UI_AboutForm_iconLinkLabel" xml:space="preserve">
     <value>Ícono por Chanut de Flaticon.com</value>
+  </data>
+  <data name="UI_SettingsForm_encrypterLabel" xml:space="preserve">
+    <value>Encriptador:</value>
+  </data>
+  <data name="ENCRYPTER_ERROR_NOT_FOUND" xml:space="preserve">
+    <value>El encriptador seleccionado no pudo ser encontrado.</value>
+  </data>
+  <data name="UI_SettingsForm_CHOOSE_ENCRYPTER" xml:space="preserve">
+    <value>¡Por favor seleccione un encriptador válido de la lista y guarde inmediatamente!</value>
   </data>
 </root>

@@ -58,5 +58,17 @@ namespace Locker.Properties {
                 this["AlphabeticalSorterChecked"] = value;
             }
         }
+        
+        [global::System.Configuration.UserScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.DefaultSettingValueAttribute("NOP")]
+        public string Encrypter {
+            get {
+                return ((string)(this["Encrypter"]));
+            }
+            set {
+                this["Encrypter"] = value;
+            }
+        }
     }
 }
