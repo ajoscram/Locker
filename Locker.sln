@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockerTest", "LockerTest\Lo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockerApplication", "LockerApplication\LockerApplication.csproj", "{4FF6B632-F10E-4D24-A037-E98B57A564A6}"
 EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LockerSetup", "LockerSetup\LockerSetup.vdproj", "{5360AD18-3EC3-4AB8-B277-DEE9FC4441B7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,8 @@ Global
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5360AD18-3EC3-4AB8-B277-DEE9FC4441B7}.Debug|Any CPU.ActiveCfg = Debug
+		{5360AD18-3EC3-4AB8-B277-DEE9FC4441B7}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
