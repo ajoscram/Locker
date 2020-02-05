@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace LockerUI
+namespace LockerApplication
 {
     public partial class AboutForm : Form
     {

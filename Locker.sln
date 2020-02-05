@@ -5,8 +5,6 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Locker", "Locker\Locker.csproj", "{78787D6B-7DCA-4925-97FC-F6B3D0832D69}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockerTest", "LockerTest\LockerTest.csproj", "{256AB86F-856C-49D2-BCF0-E789334A659A}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LockerApplication", "LockerApplication\LockerApplication.csproj", "{4FF6B632-F10E-4D24-A037-E98B57A564A6}"
 EndProject
 Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "LockerSetup", "LockerSetup\LockerSetup.vdproj", "{5360AD18-3EC3-4AB8-B277-DEE9FC4441B7}"
@@ -21,10 +19,6 @@ Global
 		{78787D6B-7DCA-4925-97FC-F6B3D0832D69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78787D6B-7DCA-4925-97FC-F6B3D0832D69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78787D6B-7DCA-4925-97FC-F6B3D0832D69}.Release|Any CPU.Build.0 = Release|Any CPU
-		{256AB86F-856C-49D2-BCF0-E789334A659A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{256AB86F-856C-49D2-BCF0-E789334A659A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{256AB86F-856C-49D2-BCF0-E789334A659A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{256AB86F-856C-49D2-BCF0-E789334A659A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4FF6B632-F10E-4D24-A037-E98B57A564A6}.Release|Any CPU.ActiveCfg = Release|Any CPU

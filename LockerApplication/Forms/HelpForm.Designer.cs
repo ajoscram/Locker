@@ -1,4 +1,4 @@
-﻿namespace LockerUI
+﻿namespace LockerApplication
 {
     partial class HelpForm
     {

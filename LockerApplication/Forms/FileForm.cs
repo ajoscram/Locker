@@ -1,10 +1,10 @@
-﻿using Locker;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Windows.Forms;
+using Locker;
 
-namespace LockerUI
+namespace LockerApplication
 {
     public partial class FileForm : Form
     {

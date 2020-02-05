@@ -21,13 +21,19 @@
         }
         "Entry"
         {
+        "MsmKey" = "8:_A728404E0E9823304B9D7D72E1000A73"
+        "OwnerKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
+        "MsmSig" = "8:_UNDEFINED"
+        }
+        "Entry"
+        {
         "MsmKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
         "OwnerKey" = "8:_UNDEFINED"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_E453BE045F399CB0E37293317ED00667"
+        "MsmKey" = "8:_UNDEFINED"
         "OwnerKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,13 +46,7 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E453BE045F399CB0E37293317ED00667"
-        "MsmSig" = "8:_UNDEFINED"
-        }
-        "Entry"
-        {
-        "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
+        "OwnerKey" = "8:_A728404E0E9823304B9D7D72E1000A73"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -67,6 +67,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
         "Release"
         {
@@ -83,6 +99,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.5"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.5 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.5"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -119,11 +151,6 @@
             "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
-                    "_8CF1FE697BE4105871AEADE5A6B8BF87"
-                    {
-                    "Name" = "8:System.Net.Http.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
@@ -143,18 +170,13 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_E453BE045F399CB0E37293317ED00667"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A728404E0E9823304B9D7D72E1000A73"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
             "AssemblyAsmDisplayName" = "8:Locker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
-                    "_E453BE045F399CB0E37293317ED00667"
-                    {
-                    "Name" = "8:Locker.dll"
-                    "Attributes" = "3:512"
-                    }
                 }
             "SourcePath" = "8:Locker.dll"
             "TargetName" = "8:"
@@ -179,7 +201,7 @@
         {
             "{5EB83D71-FA18-4901-BE56-DE22E13CC478}:_C4B57BEAEB364AFD9E2257F6D8F480BE"
             {
-            "Name" = "8:any"
+            "Name" = "8:Files"
             "Description" = "8:Locker file"
             "Extensions" = "8:.locker"
             "MIME" = "8:"
@@ -254,7 +276,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Locker"
         "ProductCode" = "8:{D9C38472-0148-4235-B9CF-FA9F5E1D220E}"
-        "PackageCode" = "8:{EE7CEF5E-F668-4D57-90D8-84D0A92176EC}"
+        "PackageCode" = "8:{DB54FCE4-772F-4251-B66A-FF5C0FE8AA1F}"
         "UpgradeCode" = "8:{A399EE0C-2B96-47FF-990A-FBB54AECB19F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -264,9 +286,9 @@
         "ProductVersion" = "8:1.0.0"
         "Manufacturer" = "8:Ajoscram"
         "ARPHELPTELEPHONE" = "8:"
-        "ARPHELPLINK" = "8:"
+        "ARPHELPLINK" = "8:https://github.com/ajoscram/Locker/wiki"
         "Title" = "8:Locker"
-        "Subject" = "8:"
+        "Subject" = "8:Locker is a command line tool and desktop application for managing passwords. "
         "ARPCONTACT" = "8:Alejandro Schmidt"
         "Keywords" = "8:"
         "ARPCOMMENTS" = "8:Locker is a command line tool and desktop application for managing passwords. "
@@ -831,7 +853,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C8FBA9CF3FF44EDAA3F6D683851900E2"
             {
-            "SourcePath" = "8:..\\LockerApplication\\obj\\Release\\LockerUI.exe"
+            "SourcePath" = "8:..\\LockerApplication\\obj\\Release\\locker.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0040BEC13E9B45CBA180D48DEC5B263B"

@@ -6,7 +6,7 @@ using System.Windows.Forms;
 using System.ComponentModel;
 using System;
 
-namespace LockerUI
+namespace LockerApplication
 {
     public static class Settings
     {

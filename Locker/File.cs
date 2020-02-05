@@ -176,19 +176,15 @@ namespace Locker
         private void clearClipboard(int seconds)
         {
             clipboardTimer = seconds;
-            Console.WriteLine("Timer set to: " + seconds);
             if (!clipboardTimerStarted)
             {
-                Console.WriteLine("Clipboard timer started countdown!");
                 clipboardTimerStarted = true;
                 while (clipboardTimer > 0)
                 {
                     Thread.Sleep(1000); // wait for one second
                     clipboardTimer--;
-                    Console.WriteLine("Current Timer: " + clipboardTimer);
                 }
                 Clipboard.SetText(" ");
-                Console.WriteLine("Clipboard cleared!");
                 clipboardTimerStarted = false;
             }
 
@@ -205,7 +201,6 @@ namespace Locker
         public void CopyToClipboard(string key, int seconds)
         {
             CopyToClipboard(key);
-            Console.WriteLine("Copied new value to clipboard: " + key);
             Thread thread = new Thread(() => clearClipboard(seconds));
             thread.SetApartmentState(ApartmentState.STA);
             thread.Start();
