@@ -28,9 +28,6 @@ namespace Locker
 
         private void setup()
         {
-            foreach (Encrypter encrypter in Encrypter.ENCRYPTERS)
-                encryptionComboBox.Items.Add(encrypter);
-            encryptionComboBox.SelectedIndex = 0;
             this.KeyDown += new KeyEventHandler(handleKeyDown);
             loadStrings();
         }
@@ -38,7 +35,7 @@ namespace Locker
         private void loadStrings()
         {
             this.Text = Settings.GetString(this);
-            List<Control> controls = new List<Control> { encryptionLabel, openButton, passwordLabel };
+            List<Control> controls = new List<Control> { openButton, passwordLabel };
             loadStrings(controls);
         }
 
@@ -46,7 +43,7 @@ namespace Locker
         {
             try
             {
-                Encrypter encrypter = (Encrypter)encryptionComboBox.SelectedItem;
+                Encrypter encrypter = Settings.SelectedEncrypter;
                 if (System.IO.Directory.Exists(path))
                 {
                     DialogResult result = openFileDialog.ShowDialog();

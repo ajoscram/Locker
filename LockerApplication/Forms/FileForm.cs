@@ -11,7 +11,7 @@ namespace Locker
         private enum String
         {
             NEW_FILE, FILE_SAVED, NO_FILE_OPENED, UNSAVED_CHANGES, NO_FIELD_SELECTED,
-            OVERWRITE_KEY, DELETE_FIELD 
+            OVERWRITE_KEY, DELETE_FIELD, HELP_URL
         }
 
         private File file_;
@@ -299,8 +299,7 @@ namespace Locker
 
         private void viewHelpMenuItem_Click(object sender, EventArgs e)
         {
-            new HelpForm(this).Show();
-            Process.Start("https://github.com/ajoscram/Locker/wiki");
+            Process.Start(Settings.GetString(this, String.HELP_URL.ToString()));
         }
 
         private void aboutMenuItem_Click(object sender, EventArgs e)
