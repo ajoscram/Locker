@@ -15,13 +15,13 @@
     {
         "Entry"
         {
-        "MsmKey" = "8:_8CF1FE697BE4105871AEADE5A6B8BF87"
+        "MsmKey" = "8:_2CD8BC9F2564F82B6CCA3383B9AB06B2"
         "OwnerKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
-        "MsmKey" = "8:_A728404E0E9823304B9D7D72E1000A73"
+        "MsmKey" = "8:_8CF1FE697BE4105871AEADE5A6B8BF87"
         "OwnerKey" = "8:_C8FBA9CF3FF44EDAA3F6D683851900E2"
         "MsmSig" = "8:_UNDEFINED"
         }
@@ -40,13 +40,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_8CF1FE697BE4105871AEADE5A6B8BF87"
+        "OwnerKey" = "8:_2CD8BC9F2564F82B6CCA3383B9AB06B2"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_A728404E0E9823304B9D7D72E1000A73"
+        "OwnerKey" = "8:_8CF1FE697BE4105871AEADE5A6B8BF87"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -144,15 +144,20 @@
         }
         "File"
         {
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8CF1FE697BE4105871AEADE5A6B8BF87"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_2CD8BC9F2564F82B6CCA3383B9AB06B2"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
+            "AssemblyAsmDisplayName" = "8:LockerLib, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
                 "ScatterAssemblies"
                 {
+                    "_2CD8BC9F2564F82B6CCA3383B9AB06B2"
+                    {
+                    "Name" = "8:LockerLib.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
-            "SourcePath" = "8:System.Net.Http.dll"
+            "SourcePath" = "8:LockerLib.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0040BEC13E9B45CBA180D48DEC5B263B"
@@ -170,15 +175,20 @@
             "IsDependency" = "11:TRUE"
             "IsolateTo" = "8:"
             }
-            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_A728404E0E9823304B9D7D72E1000A73"
+            "{9F6F8455-1EF1-4B85-886A-4223BCC8E7F7}:_8CF1FE697BE4105871AEADE5A6B8BF87"
             {
             "AssemblyRegister" = "3:1"
             "AssemblyIsInGAC" = "11:FALSE"
-            "AssemblyAsmDisplayName" = "8:Locker, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL"
+            "AssemblyAsmDisplayName" = "8:System.Net.Http, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"
                 "ScatterAssemblies"
                 {
+                    "_8CF1FE697BE4105871AEADE5A6B8BF87"
+                    {
+                    "Name" = "8:System.Net.Http.dll"
+                    "Attributes" = "3:512"
+                    }
                 }
-            "SourcePath" = "8:Locker.dll"
+            "SourcePath" = "8:System.Net.Http.dll"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0040BEC13E9B45CBA180D48DEC5B263B"
@@ -217,7 +227,7 @@
                     {
                     "Command" = "8:&Open"
                     "Verb" = "8:open"
-                    "Arguments" = "8:\"%1\""
+                    "Arguments" = "8:-ui -file \"%1\""
                     "Order" = "3:0"
                     }
                 }
@@ -276,7 +286,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Locker"
         "ProductCode" = "8:{D9C38472-0148-4235-B9CF-FA9F5E1D220E}"
-        "PackageCode" = "8:{DB54FCE4-772F-4251-B66A-FF5C0FE8AA1F}"
+        "PackageCode" = "8:{0F1D003A-B81F-4035-9FE3-E7D2D6FF03A4}"
         "UpgradeCode" = "8:{A399EE0C-2B96-47FF-990A-FBB54AECB19F}"
         "AspNetVersion" = "8:4.0.30319.0"
         "RestartWWWService" = "11:FALSE"
@@ -853,7 +863,7 @@
             }
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_C8FBA9CF3FF44EDAA3F6D683851900E2"
             {
-            "SourcePath" = "8:..\\LockerApplication\\obj\\Release\\locker.exe"
+            "SourcePath" = "8:..\\LockerApplication\\obj\\Debug\\locker.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_0040BEC13E9B45CBA180D48DEC5B263B"

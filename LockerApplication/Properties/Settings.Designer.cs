@@ -61,7 +61,7 @@ namespace Locker.Properties {
         
         [global::System.Configuration.UserScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.DefaultSettingValueAttribute("NOP")]
+        [global::System.Configuration.DefaultSettingValueAttribute("XOR")]
         public string Encrypter {
             get {
                 return ((string)(this["Encrypter"]));

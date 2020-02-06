@@ -12,7 +12,7 @@
       <Value Profile="(Default)">False</Value>
     </Setting>
     <Setting Name="Encrypter" Type="System.String" Scope="User">
-      <Value Profile="(Default)">NOP</Value>
+      <Value Profile="(Default)">XOR</Value>
     </Setting>
   </Settings>
 </SettingsFile>
