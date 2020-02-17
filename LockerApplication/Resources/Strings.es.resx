@@ -156,7 +156,7 @@
   <data name="FILE_ERROR_EMPTY_VALUE" xml:space="preserve">
     <value>Debe introducir un valor.</value>
   </data>
-  <data name="FILE_ERROR_FIELD_DOES_NOT_CONTAIN_FIELD_SEPARATOR" xml:space="preserve">
+  <data name="FILE_ERROR_FIELD_DOES_NOT_CONTAIN_PROPERTY_SEPARATOR" xml:space="preserve">
     <value>El campo no contiene el caracter separador de propiedades (TAB).</value>
   </data>
   <data name="FILE_ERROR_FILE_NOT_FOUND" xml:space="preserve">

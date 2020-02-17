@@ -15,7 +15,7 @@ namespace Locker
         public enum Error
         {
             //CRUD
-            EMPTY_KEY, MISSING_KEY, EMPTY_VALUE, KEY_CONTAINS_PROPERTY_SEPARATOR, KEY_CONTAINS_FIELD_SEPARATOR, VALUE_CONTAINS_FIELD_SEPARATOR, FIELD_DOES_NOT_CONTAIN_SEPARATOR,
+            EMPTY_KEY, MISSING_KEY, EMPTY_VALUE, KEY_CONTAINS_PROPERTY_SEPARATOR, KEY_CONTAINS_FIELD_SEPARATOR, VALUE_CONTAINS_FIELD_SEPARATOR, FIELD_DOES_NOT_CONTAIN_PROPERTY_SEPARATOR,
             //IO
             CHECKS_DID_NOT_MATCH, NON_VALID_PATH, PATH_TOO_LONG, DIRECTORY_NOT_FOUND, IO_ERROR, UNAUTHORIZED_ACCESS, FILE_NOT_FOUND
         }
@@ -70,7 +70,7 @@ namespace Locker
                 Add(key, value);
             }
             else
-                throw new FileException(Error.FIELD_DOES_NOT_CONTAIN_SEPARATOR, this, this.Count);
+                throw new FileException(Error.FIELD_DOES_NOT_CONTAIN_PROPERTY_SEPARATOR, this, this.Count);
         }
 
         public void Remove(string key)
@@ -116,7 +116,8 @@ namespace Locker
                     File file = new File();
                     file.Path = path;
                     foreach (string field in fields)
-                        file.Add(field);
+                        if(field.Length != 0)
+                            file.Add(field);
                     file.modified = false;
                     return file;
                 }
@@ -219,11 +220,11 @@ namespace Locker
 
         public override string ToString()
         {
-            string str = "", last = fields.Last().Key;
+            string str = "";
             foreach (string key in fields.Keys)
             {
                 str += key + PROPERTY_SEPARATOR + fields[key];
-                if (key != last)
+                if (key != fields.Last().Key)
                     str += FIELD_SEPARATOR;
             }
             return str;
